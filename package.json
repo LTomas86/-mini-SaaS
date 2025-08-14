@@ -1,0 +1,9 @@
+{
+  "name": "mini-saas",
+  "private": true,
+  "workspaces": ["apps/api", "apps/web"],
+  "scripts": {
+    "dev": "npm --workspace apps/api run dev & npm --workspace apps/web run dev",
+    "test": "echo 'No tests implemented'"
+  }
+}
